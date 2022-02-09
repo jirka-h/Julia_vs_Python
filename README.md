@@ -1,9 +1,11 @@
 # Julia_vs_Python
 
-Simple sum test comparing Python and [Julia](https://julialang.org/) Performance
+Simple sum test comparing Python and [Julia](https://julialang.org/) Performance.
+
+Sum of 1/i for the first 1e8 terms is **40x faster** in Julia than in Python. 
 
 ```
-Sum[1/i,{n,1,1e8}]
+Sum[1/i,{i,1,1e8}]
 Python 3.9.9: 4.48 seconds
 Julia version 1.6.4: 0.11 seconds
 
